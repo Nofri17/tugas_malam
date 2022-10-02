@@ -1,0 +1,51 @@
+<?php
+<html>
+<head>
+    <title>PROFIL DIRI</title>
+</head>
+<body>
+<body>
+    <h1>PROFIL DIRI</h1>
+    <form action="" method="post">
+        <tr style="background-color: black;">
+        <body style="background-color: palevioletred">
+        
+<table> 
+    <tr>
+        <td>NIM</td>
+        <td><input type="number">
+    </tr>
+    <tr>
+        <td width="120">NAMA</td>
+        <td><input type="text">
+    </tr>
+    <tr>
+        <td>GENDER</td>
+        <td><input type="radio"> Laki - Laki
+            <input type="radio"> Perempuan
+            </td>
+    </tr>
+    <tr>
+        <td>STATUS</td>
+        <td><input type="radio"> Single 
+            <input type="radio"> Menikah
+            </td>
+    </tr>
+    <tr>
+        <td>NO HP</td>
+        <td><input type="number">
+        </td>
+    </tr>
+    <tr>
+        <td>ALAMAT</td>
+        <td><textarea></textarea>
+        </td>
+    </tr>
+    <tr> 
+        <td></td>
+        <td><button type="button" onclick="alert('Success Anda Telah Berhasil Login')">Simpan</button>
+            <button type="button" onclick="alert('Data Anda Kurang Lengkap Mohon Periksa Kembali')">Kembali</button>
+         </td>
+    </tr>   
+</table>
+</form>
